@@ -1689,9 +1689,12 @@ a {
   }
 
   .header .header__top .header__wrapper .header__menu .header__menu-btn {
+    display: flex;
     width: 30px;
     height: 20px;
     position: relative;
+    background-color: transparent;
+    border: 0;
   }
 
   .header .header__top .header__wrapper .header__menu .header__menu-btn span {
